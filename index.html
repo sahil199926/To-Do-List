@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>sa</title>
+<style>
+
+
+</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS Starter</title>
+  <!--boot--><link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+ <!--font--> <link rel="stylesheet" href="node_modules\font-awesome\css\font-awesome.min.css">
+</head>
+
+<body >
+<main class="container">
+<div style="text-align: center;font-size: 30px;">TO-Do-List</div>
+
+<div class="input-group mb-3">
+  <input  id="typ" type="text" class="form-control" placeholder="Add task here" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <button id="butt" class="btn btn-outline-secondary" type="button" onclick="funck();">Add</button>
+  </div>
+</div>
+<ul class="list-group" id="lis">
+  
+</ul>
+<div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">DELETE</h5>        
+      </div>
+      <div class="modal-body">
+        <p>are you sure you want to delete this task?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" onclick="condelet();" >YES</button>
+        <button type="button" class="btn btn-secondary" onclick="notdele();" data-dismiss="modal">NO</button>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+<script src="script.js"></script> 
+</body>
+<!-- <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script> -->
+<script src="script.js"></script>
+</html>
